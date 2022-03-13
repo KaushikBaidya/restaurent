@@ -15,8 +15,9 @@
 }
 
 .app__navbar-logo h1 {
-  color: var(--color-golden);
   font-family: 'Cormorant Upright';
+  color: var(--color-golden);
+  font-size: 2rem;
 }
 
 .app__navbar-links {
@@ -128,7 +129,8 @@
     display: none;
   }
 
-  .app__navbar-logo img {
-    width: 110px;
+  .app__navbar-logo h1 {
+    font-family: 'Cormorant Upright';
+    color: var(--color-golden);
   }
 }
