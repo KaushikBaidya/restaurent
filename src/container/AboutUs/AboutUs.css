@@ -45,18 +45,21 @@
   text-align: left;
 }
 
-.app__aboutus-content_about p,
-.app__aboutus-content_history p {
+.app__aboutus-content_history h1 {
   margin: 2rem 0;
-  color: var(--color-grey);
+  color: var(--color-white);
 }
-
+.h2 {
+  margin: 2rem 0;
+  color: var(--color-white);
+  font-size: 30px;
+  font-weight: 300;
+}
 @media screen and (min-width: 2000px) {
   .app__aboutus-content_knife img {
     height: 1110px;
   }
 
-  .app__aboutus-content_about p,
   .app__aboutus-content_history p {
     margin: 4rem 0;
   }
